@@ -1,6 +1,7 @@
 FROM ubuntu:16.04
 
 MAINTAINER Marky Jackson <marky@kubernauts.io>
+##This is a optional path I was exploring. For eases of use for beginners I am going a different route
 
 RUN apt-get update && apt-get install -y \
         build-essential \
